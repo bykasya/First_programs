@@ -1,18 +1,12 @@
-puts "Wow world!"
-
-h=24*365 #hours in a year
-puts h
-
-d=60*24 #min in a day
-y=d*365 #min in a year
-dec=y*10 #min in a decade
-puts dec 
-
-s=60*d #sec in a day
-me=s*365*36 #seconds old
-puts me
-
-she=1298000000/365/s
-puts she
+a="I want a raise"
+puts a
+puts "WADDAYA MEAN '#{a.upcase}'?!?! YOU'RE FIRED!!!"
+puts ""
+lengthwide=50
+puts "Table of Contents".center lengthwide  
+puts ""
+puts "Chapter 1.  Numbers".ljust(lengthwide/2)+ "Page 1".rjust(lengthwide/2)
+puts "Chapter 3.  Letters".ljust(lengthwide/2)+ "Page 72".rjust(lengthwide/2)
+puts "Chapter 5.  Variables".ljust(lengthwide)+ "Page 118".rjust(lengthwide)
 
 
