@@ -2,7 +2,7 @@ def got_here
  puts "Got Here!"
 end
 
-got_here
+puts got_here
 
 
 def cube(number)
@@ -11,9 +11,11 @@ end
 
 puts cube(6)
 
-def set_ten 
- a = 10
+
+
+def add_77(a)
+ a << 77
  end
 
-set_ten
-puts a
+x = [1,2,3]
+puts add_77(x).inspect
