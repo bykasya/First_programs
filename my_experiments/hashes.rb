@@ -8,3 +8,7 @@ end
 xyd= { a:49, one: "tada" , this_one: "Great!",  that_one: "bad" }
 point (xyd)
 
+def inc(arg1)
+  return (arg1 + 1)
+end
+puts inc(1)
